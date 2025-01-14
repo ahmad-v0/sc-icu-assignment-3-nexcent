@@ -6,6 +6,7 @@
     --color-secondary: #263238;
     --color-info: #2194f3;
     --color-silver: #F5F7FA;
+    --color-grey: #717171;
     --shade-S2: #388E3B;
 }
 
@@ -20,6 +21,10 @@
 
 body {
     font-family: 'Inter';
+}
+
+body p {
+    color: var(--color-grey);
 }
 
 .navbar-c,
