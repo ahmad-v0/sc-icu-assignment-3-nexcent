@@ -1,5 +1,6 @@
 @import url(./fonts/inter-v18-latin/css/fonts-css.css);
 
+/* properties for variable section  */
 :root {
     /* section for color properties  */
     --color-primary: #4CAF4F;
@@ -7,18 +8,26 @@
     --color-info: #2194f3;
     --color-silver: #F5F7FA;
     --color-grey: #717171;
+    --color-d-grey: #4D4D4D;
     --shade-S2: #388E3B;
 }
 
+/* properties for color section  */
 .color-primary {
     color: #4CAF4F;
 }
+h1,
+h2,
+h3 {
+    color: var(--color-d-grey);
+}
 
-
+/* properties for font weight section  */
 .fw-600 {
     font-weight: 600 !important;
 }
 
+/* properties for body section  */
 body {
     font-family: 'Inter';
 }
@@ -27,11 +36,13 @@ body p {
     color: var(--color-grey);
 }
 
+/* common properties for navbar and hero section  */
 .navbar-c,
 .section-hero {
     background-color: var(--color-silver) !important;
 }
 
+/* common properties for buttons  */
 .btn-login {
     color: var(--color-primary) !important;
 }
@@ -46,6 +57,7 @@ body p {
     transition: background-color 0.3s ease;
 }
 
+/* properties for hero section  */
 .carousel-indicators-c [data-bs-target] {
     width: 0.625rem;
     height: 0.625rem;
@@ -56,4 +68,18 @@ body p {
 
 .section-hero-content {
     height: calc(100vh - 2.5rem);
+}
+
+/* properties for client feedback section  */
+.section-feedback {
+    background-color: var(--color-silver);
+}
+.see-more {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.see-more img {
+    width: 1.5rem;
+    margin-left: 0.5rem;
 }
