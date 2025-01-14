@@ -6,6 +6,7 @@
     --color-secondary: #263238;
     --color-info: #2194f3;
     --color-silver: #F5F7FA;
+    --shade-S2: #388E3B;
 }
 
 .color-primary {
@@ -35,10 +36,19 @@ body {
     border: none;
 }
 
+.btn-c:hover {
+    background-color: var(--shade-S2);
+    transition: background-color 0.3s ease;
+}
+
 .carousel-indicators-c [data-bs-target] {
     width: 0.625rem;
     height: 0.625rem;
     border-radius: 50%;
     background-color: var(--color-primary);
     
+}
+
+.section-hero-content {
+    height: calc(100vh - 2.5rem);
 }

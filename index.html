@@ -11,15 +11,17 @@
 
 </head>
 <body>
-    <!-- beginning of nav bar section  -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-c">
+    <!-- beginning of header section  -->
+    <header>
+        <!-- beginning of nav bar section  -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-c">
         <div class="container">
-          <a class="navbar-brand w-25" href="#"><img src="./assets/Logo.svg" alt="Nexcent"></a>
+          <a class="navbar-brand" href="#"><img src="./assets/Logo.svg" alt="Nexcent"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 w-50 justify-content-between">
+          <div class="collapse navbar-collapse justify-space-between" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 justify-space-between">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -39,7 +41,7 @@
                 <a class="nav-link" href="#">FAQ</a>
               </li>
             </ul>
-            <ul class="navbar-nav  mb-2 mb-lg-0 w-25">
+            <ul class="navbar-nav  mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active btn-login" aria-current="page" href="#">Login</a>
               </li>
@@ -49,48 +51,55 @@
             </ul>
           </div>
         </div>
-    </nav>
-    <!-- end of nav bar section  -->
-    <!-- beginning of hero section  -->
-    <section class="section-hero">
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators carousel-indicators-c">
-              <button type="button" 
-              data-bs-target="#carouselExampleIndicators" 
-              data-bs-slide-to="0" 
-              class="active" 
-              aria-current="true" 
-              aria-label="Slide 1">
-              </button>
-              <button type="button" 
-              data-bs-target="#carouselExampleIndicators" 
-              data-bs-slide-to="1" 
-              aria-label="Slide 2">
-              </button>
-              <button type="button" 
-              data-bs-target="#carouselExampleIndicators" 
-              data-bs-slide-to="2" 
-              aria-label="Slide 3">
-              </button>
-            </div>
-            <div class="container py-5 carousel-inner">
-                <div class="row gap-5 align-items-center">
-                    <div class="section-sero-txt col-7">
-                        <h1 class="fw-600">
-                            Lessons and insights <br />
-                            <span class="section-hero-txt-color fw-600 color-primary">from 8 years</span>
-                        </h1>
-                        <p>Where to grow your business as a photographer: site or social media?</p>
-                        <button class="btn btn-primary btn-c">Register</button>
-                    </div>
-                    <div class="carousel-item active col-5">
-                        <img src="./assets/hero-img.svg" class="img-fluid" alt="hero image">
+        </nav>
+        <!-- end of nav bar section  -->
+    </header>
+    <!-- end of header section  -->
+    <!-- beginning of main section  -->
+    <main>
+        <!-- beginning of hero section  -->
+        <section class="section-hero">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators carousel-indicators-c">
+                    <button type="button" 
+                    data-bs-target="#carouselExampleIndicators" 
+                    data-bs-slide-to="0" 
+                    class="active" 
+                    aria-current="true" 
+                    aria-label="Slide 1">
+                    </button>
+                    <button type="button" 
+                    data-bs-target="#carouselExampleIndicators" 
+                    data-bs-slide-to="1" 
+                    aria-label="Slide 2">
+                    </button>
+                    <button type="button" 
+                    data-bs-target="#carouselExampleIndicators" 
+                    data-bs-slide-to="2" 
+                    aria-label="Slide 3">
+                    </button>
+                </div>
+                <div class="container py-5 carousel-inner">
+                    <div class="row align-items-center text-center section-hero row-gap-5">
+                        <div class="col-md-7">
+                          <h1 class="fw-600">
+                              Lessons and insights <br />
+                              <span class="section-hero-txt-color fw-600 color-primary">from 8 years</span>
+                          </h1>
+                          <p>Where to grow your business as a photographer: site or social media?</p>
+                          <button class="btn btn-primary btn-c">Register</button>
+                        </div>
+                        <div class="col-md-5">
+                          <img src="./assets/hero-img.svg" class="img-fluid" alt="hero image">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- end of hero section  -->
+        </section>
+        <!-- end of hero section  -->
+    </main>
+    <!-- end of main section  -->
+    
     <script src="./bootstrap/bootstrap.min.js"></script>
 </body>
 </html>
