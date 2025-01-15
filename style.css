@@ -83,3 +83,16 @@ body p {
     width: 1.5rem;
     margin-left: 0.5rem;
 }
+
+.marketing-tile-img,
+.marketing-tile-text {
+    display: grid;
+}
+
+.marketing-tile-img {
+    grid-row: 1/4;
+}
+
+.marketing-tile-text {
+    grid-row: 3/5;
+}
