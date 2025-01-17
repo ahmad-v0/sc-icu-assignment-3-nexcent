@@ -41,6 +41,8 @@
 .bg-color-dark-grey {
     background-color: #717171;
 }
+
+/* properties for headings */
 h1,
 h2,
 h3 {
@@ -114,13 +116,13 @@ body p {
     margin-left: 0.5rem;
 }
 
+/* properties for marketing section  */
 .marketing-tile-item {
     display: grid;
     grid-template-rows: repeat(4, 6rem);
     grid-template-columns: 1fr;
     justify-items: center;
 }
-
 
 .marketing-tile-img {
     /* grid-row: 1 / 4; */
@@ -135,6 +137,7 @@ body p {
     background-color: var(--color-silver);
 }
 
+/* properties for footer section  */
 .social-icon {
     width: 2rem;
     height: 2rem;
