@@ -27,9 +27,9 @@
     color: var(--color-silver);
 }
 
-.color-silver {
+/* .color-silver {
     color: #D9DBE1;
-}
+} */
 .bg-color-silver {
     background-color: var(--color-silver);
 }
@@ -135,6 +135,11 @@ body p {
     background-color: var(--color-silver);
 }
 
+.social-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
 table thead tr th {
     color: #FFF !important;
     background-color: var(--color-black) !important;
@@ -142,6 +147,7 @@ table thead tr th {
     /* text-align: center; */
     font-size: 1.25rem;
     font-weight: 600;
+    padding-top: 0 !important;
 }
 
 table tbody tr td {
@@ -155,7 +161,7 @@ table tbody tr td a {
     text-decoration: none;
 }
 
-input::placeholder {
+.input-email::placeholder {
     color: var(--color-silver);
 }
 
